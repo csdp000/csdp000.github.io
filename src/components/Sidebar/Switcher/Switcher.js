@@ -6,17 +6,24 @@ import styles from './Switcher.module.scss';
 const Switcher = () => { 
 
   let isDarkModeOn = true;
-  window.localStorage.setItem('darkMode', isDarkModeOn); 
-  const bodyEl = document.getElementsByTagName('body')[0]; 
-  //다크모드 기본 값 
-  bodyEl.classList.add('dark');  
+  let bodyEl;
+
+  if (typeof window !== "undefined" && typeof document !== "undefined") {
+    //다크모드 기본 값 
+    window.localStorage.setItem('darkMode', isDarkModeOn);  
+    bodyEl = document.getElementsByTagName('body')[0];   
+    bodyEl.classList.add('dark');  
+ 
+  }
 
   function TurnDarkMode() {
     isDarkModeOn ?  bodyEl.classList.remove('dark') : bodyEl.classList.add('dark');
     isDarkModeOn = !isDarkModeOn;
-    window.localStorage.setItem('darkMode', isDarkModeOn);
+  
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem('darkMode', isDarkModeOn);
+    }
   }
-
   return (
     <div className={styles['switch__container']}>
       <span className={styles['switch__text']}>💡</span> 
