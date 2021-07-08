@@ -8,7 +8,7 @@ module.exports = {
   copyright: '© All rights reserved.', 
   postsPerPage: 4,
   darkFunctionalityIsOn: true,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-139159892-1',
   useKatex: false,
   menu: [
     {
