@@ -11,18 +11,15 @@ tags:
 description: "test description"
 socialImage: "/media/image-2.jpg"
 ---
+ 
 
-# a
-
-c# 코드 하이라이트 
-## dd
+c# 코드 하이라이트  
 ```csharp
 public static void Main(string[] args) 
 {
 
 } 
  ```
-## ss
 
 Shell 코드 하이라이트
  ```shell{outputLines: 2-10,12}
