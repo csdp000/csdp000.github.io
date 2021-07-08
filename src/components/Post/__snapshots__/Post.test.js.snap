@@ -8,7 +8,7 @@ exports[`Post renders correctly 1`] = `
     className="post__home-button"
     href="/"
   >
-    All Articles
+    전체 글 보기
   </a>
   <div
     className="post__content"

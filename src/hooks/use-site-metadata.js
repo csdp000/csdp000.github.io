@@ -11,12 +11,8 @@ const useSiteMetadata = () => {
               name
               bio
               photo
-              contacts {
-                facebook
-                linkedin
+              contacts { 
                 github
-                twitter
-                telegram
                 instagram
                 email
                 rss
@@ -37,8 +33,7 @@ const useSiteMetadata = () => {
             url
             title
             subtitle
-            copyright
-            disqusShortname
+            copyright 
           }
         }
       }

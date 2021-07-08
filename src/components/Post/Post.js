@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Author from './Author';
-import Comments from './Comments';
+import Utterances from './Utterances';
 import Content from './Content';
 import Meta from './Meta';
 import Tags from './Tags';
@@ -20,7 +20,7 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">All Articles</Link>
+      <Link className={styles['post__home-button']} to="/">전체 글 보기</Link>
 
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
@@ -32,8 +32,8 @@ const Post = ({ post }: Props) => {
         <Author />
       </div>
 
-      <div className={styles['post__comments']}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+      <div className={styles['post__comments']}> 
+        <Utterances repo='csdp000/csdp000.github.io' theme='github-light' />
       </div>
     </div>
   );

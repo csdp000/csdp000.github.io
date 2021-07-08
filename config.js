@@ -5,8 +5,7 @@ module.exports = {
   pathPrefix: '/csdp000',
   title: '2ykwang',
   subtitle: '영광',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  copyright: '© All rights reserved.', 
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
@@ -18,10 +17,6 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
@@ -29,15 +24,12 @@ module.exports = {
     photo: '/photo.jpg',
     bio: ' _ _ _ ',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: '',  
+      github: 'csdp000',
       rss: '',
       vkontakte: '',
       linkedin: '#',
-      instagram: '#',
+      instagram: '2ykwang',
       line: '',
       gitlab: '',
       weibo: '',

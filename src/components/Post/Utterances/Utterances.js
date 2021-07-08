@@ -7,11 +7,11 @@ export interface IUtterancesProps {
   theme: string;
 }
 
-const Comments: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
-  const containerRef = createRef<HTMLDivElement>("");
+const Utterances: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
+  const containerRef = createRef();
 
   useLayoutEffect(() => {
-    const comments = document.createElement('script');
+    const utterances = document.createElement('script');
 
     const attributes = {
       src,
@@ -24,15 +24,15 @@ const Comments: React.FC<IUtterancesProps> = React.memo(({ repo, theme }) => {
     };
 
     Object.entries(attributes).forEach(([key, value]) => {
-      comments.setAttribute(key, value);
+      utterances.setAttribute(key, value);
     });
 
-    containerRef.current.appendChild(comments);
+    containerRef.current.appendChild(utterances);
   }, [repo]);
 
   return <div ref={containerRef} />;
 });
 
-Comments.displayName = 'Comments';
+Utterances.displayName = 'Utterances';
 
-export default Comments;
+export default Utterances;

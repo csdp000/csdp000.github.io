@@ -6,8 +6,7 @@ module.exports = {
       url: 'http://localhost',
       title: 'Test title',
       subtitle: 'Test subtitle',
-      copyright: 'Test copyright',
-      disqusShortname: '',
+      copyright: 'Test copyright', 
       postsPerPage: 4,
       menu: [
         {
@@ -28,9 +27,7 @@ module.exports = {
         photo: '/test.jpg',
         bio: 'Test bio',
         contacts: {
-          email: '#',
-          telegram: '#',
-          twitter: '#',
+          email: '#',  
           github: '#',
           rss: '#',
           vkontakte: '#'
