@@ -43,11 +43,11 @@
     bottom: 4px;
     border-radius: 50%;
     background-color: $color-base;
-    transition: .4s;
+    transition: .5s;
 }
 
 input:checked + .slider {
-    background-color: $color-background;
+    background-color: $color-background;  
 }
 
 input:checked + .slider:before {

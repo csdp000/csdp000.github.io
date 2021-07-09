@@ -23,7 +23,7 @@ module.exports = {
   author: {
     name: 'Yeonggwang',
     photo: '/photo.jpg',
-    bio: ' _ _ _ ',
+    bio: ' ✅ ✅ ✅ ✅ ✅ ',
     contacts: {
       email: '',  
       github: 'csdp000',

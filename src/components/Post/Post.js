@@ -13,6 +13,26 @@ type Props = {
   post: Node
 };
 
+let isDarkModeOn;
+let bodyEl;
+
+
+//to-do: 다크모드 중복코드 해결하기 (새로고침 하면 다크모드가 풀림) 
+if (typeof window !== "undefined" && typeof document !== "undefined") {
+  //다크모드 기본 값
+  const storage = window.localStorage;
+  bodyEl = document.getElementsByTagName('body')[0];  
+  
+  if(storage.getItem('darkMode') === null){
+    storage.setItem('darkMode', "1");
+  }  
+  
+  isDarkModeOn = storage.getItem('darkMode');
+
+  if(isDarkModeOn == "1"){ 
+    bodyEl.classList.add('dark');   
+  }
+}
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
