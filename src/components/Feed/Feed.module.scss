@@ -29,9 +29,18 @@
     }
 
     &-description {
-      font-size: $typographic-base-font-size;
+      font-size: $typographic-base-font-size; 
       @include line-height(1);
       @include margin-bottom(.75);
+      
+      &-link {
+        color: $color-gray;
+        &:hover,
+        &:focus {
+          color: $color-gray;
+          border-bottom: 1px solid $color-base;
+        }
+      }
     }
 
     &-meta {
