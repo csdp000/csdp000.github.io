@@ -6,11 +6,17 @@
 <url> <loc>https://csdp000.github.io/pages/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/posts/first-test-article</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/posts/csharp-check-available-port</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/posts/slug</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/posts/프로그래머스-기능개발</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/tag/c</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/tag/socket-exception</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/tag/algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/tag/programmers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/tag/tag-1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/tag/tag-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/category/c</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/category/algorithm</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://csdp000.github.io/category/category</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/category/test</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://csdp000.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
