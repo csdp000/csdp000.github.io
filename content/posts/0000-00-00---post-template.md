@@ -3,7 +3,7 @@ title:      "제목"
 slug:       "slug"
 date:       "2021-07-10T15:11:30"
 template:   "post"
-draft:      false 
+draft:      true
 category:   "category"
 tags:
   - "tag1"
