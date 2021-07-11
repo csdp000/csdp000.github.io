@@ -1,14 +1,14 @@
 ---
-title: title
-date: "0000-00-00T00:00:00.121Z"
-template: "post"
-draft: true
-slug: "post-slug"
-category: "test"
+title:      "제목"
+slug:       "slug"
+date:       "2021-07-10T15:11:30"
+template:   "post"
+draft:      false 
+category:   "category"
 tags:
   - "tag1"
   - "tag2"
-description: "description"
+description: "description" 
 ---
  
  
